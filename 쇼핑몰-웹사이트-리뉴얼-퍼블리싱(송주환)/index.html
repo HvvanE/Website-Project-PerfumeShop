@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <title>쇼핑몰 웹사이트 리뉴얼</title>
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <!-- slick slider -->
+  <script src="js/slick/slick.min.js"></script>
+  <link rel="stylesheet" href="js/slick/slick-theme.css">
+  <link rel="stylesheet" href="js/slick/slick.css">
+  <!-- Custom Css & Js -->
+  <link rel="stylesheet" href="style.css">
+  <script src="js/custom.js"></script>
+</head>
+<body>
+  
+  <div class="container">
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+          <div class="banner">
+            <div class="logo">
+              <a href="#"></a>
+            </div>
+            <div class="lnb">
+              <a href="#none"  onclick="location.href='html/login.html'">LOGIN</a>
+              <a href="#none">ORDER INQUIRY</a>
+              <div class="mode"></div>
+            </div>
+          </div>
+          <nav>
+            <div class="gnb">
+              <a href="#category">CATEGORY</a>
+              <a href="#proposal">PROPOSAL</a>
+              <a href="#new">NEW</a>
+              <a href="#best">BEST</a>
+              <a href="#review">REVIEW</a>
+              <a href="#accordion">DELIVERY</a>
+            </div>
+            <div class="sub-lnb">
+              <input type="search">
+              <a href="#none"><i class="xi-cart-o"></i></a>
+            </div>
+          </nav>
+      </div>
+    </header>
+    <!-- Welcome -->
+    <section class="welcome" id="welcome">
+      <div class="section-inner">
+        <div class="welcome-slider">
+          <div class="welcome-item">
+            <a href="#none" onclick="location.href='html/product-detail.html'">
+              <img src="images/slide-01-min.png" alt="#none">
+              <h1>Taste in the comfort of your home.<span>Free shipping + discount coupon presenting!</span></h1>
+            </a>
+          </div>
+          <div class="welcome-item">
+            <a href="#none">
+              <img src="images/slide-02-min.jpg" alt="#none">
+              <h1>Gentle and modern cypre fragrance.<span>Nishane Hacivat!</span></h1>
+            </a>
+          </div>
+          <div class="welcome-item">
+            <a href="#none">
+              <img src="images/slide-03-min.png" alt="#none">
+              <h1>Discovery Set Collection Exhibition.<span>Recommended for beginners in niche perfume!</span></h1>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Category -->
+    <section class="category" id="category">
+      <div class="section-inner">
+        <div class="category-content">
+          <div class="category-item">
+            <a href="#none">
+              <img src="images/category-01-min.png" alt="#none">
+              <span>UNISEX</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#none">
+              <img src="images/category-02-min.png" alt="#none">
+              <span>FOR MAN</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#none">
+              <img src="images/category-03-min.png" alt="#none">
+              <span>FOR WOMAN</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#none">
+              <img src="images/category-04-min.png" alt="#none">
+              <span>DISCOVERY</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#none">
+              <img src="images/category-05-min.png" alt="#none">
+              <span>DEFUSER</span>
+            </a>
+          </div>
+          <div class="category-item">
+            <a href="#none">
+              <img src="images/category-06-min.png" alt="#none">
+              <span>CANDLE</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Proposal -->
+    <section class="proposal" id="proposal">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="content-heading">
+            <b>RECOMMENDED</b>
+            PRODUCTS
+          </h2>
+        </div>
+        <div class="proposal-content">
+          <div class="proposal-items">
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-01-min.jpg" alt="#none">
+                <p>
+                  [Marina de Bourbon] Marina de Bourbon Golden Dynasty EDP 50ml
+                </p>
+                <div class="price">
+                  <span><s>74,000원</s></span><b> 59,000원</b>
+                </div>
+              </a>
+            </div>
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-02-min.jpg" alt="#none">
+                <p>
+                  [John Barbatos] John Barbatos Artisan EDT 125ml Gift of an artisan bottle
+                </p>
+                <div class="price">
+                  <span><s>120,000원</s></span><b> 49,500원</b>
+                </div>
+              </a>
+            </div>
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-03-min.jpg" alt="#none">
+                <p>
+                  [Jo Malone] Jo Malone Wood Sage & Sea Salt Cologne 30ml
+                </p>
+                <div class="price">
+                  <span><s>95,000원</s></span><b> 82,000원</b>
+                </div>
+              </a>
+            </div>
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-04-min.jpg" alt="#none">
+                <p>
+                  [Aqua di Parma] Aqua di Parma Bergamoto di Calabria EDT 75ml
+                </p>
+                <div class="price">
+                  <span><s>153,000원</s></span><b> 89,000원</b>
+                </div>
+              </a>
+            </div>
+          </div>
+          <div class="proposal-items">
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-05-min.jpg" alt="#none">
+                <p>
+                  [Salvador Dali] Salvador Dali Eau de Ruby Lips EDT 50ml
+                </p>
+                <div class="price">
+                  <span><s>72,000원</s></span><b> 31,000원</b>
+                </div>
+              </a>
+            </div>
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-06-min.jpg" alt="#none">
+                <p>
+                  [Jimmy Choo] Jimmy Choo Blossom EDP 100ml
+                </p>
+                <div class="price">
+                  <span><s>146,000원</s></span><b> 60,000원</b>
+                </div>
+              </a>
+            </div>
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-07-min.jpg" alt="#none">
+                <p>
+                  [Giorgio Armani] Giorgio Armani Aqua Di Gio Homme EDT 100ml
+                </p>
+                <div class="price">
+                  <span><s>120,000원</s></span><b> 107,000원</b>
+                </div>
+              </a>
+            </div>
+            <div class="proposal-item">
+              <a href="#none">
+                <img src="images/recommended-08-min.jpg" alt="#none">
+                <p>
+                  [Chloé] Chloé Eau de Parfum EDP 20ml Gift Chloé Bracelet
+                </p>
+                <div class="price">
+                  <span><s>82,000원</s></span><b> 49,500원</b>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- New -->
+    <section class="new" id="new">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="content-heading">
+            <b>NEW</b>
+            PRODUCTS
+          </h2>
+        </div>
+        <div class="new-slider">
+          <div class="new-item">
+            <a href="#none">
+              <img src="images/new-01-min.jpg" alt="#none">
+              <div>
+                <p>
+                  [Hermes] Hermes H24 EDT 50ml
+                  <br>
+                  <span><s>74,000원</s></span><b> 59,000원</b>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="new-item">
+            <a href="#none">
+              <img src="images/new-02-min.jpg" alt="#none">
+              <div>
+                <p>
+                  [Lamborghini] Lamborghini Essenza EDT 125ml
+                  <br>
+                  <span><s>89,000원</s></span><b> 32,000원</b>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="new-item">
+            <a href="#none">
+              <img src="images/new-03-min.jpg" alt="#none">
+              <div>
+                <p>
+                  [Chloé] Chloé Nomad Absolute EDP 75ml
+                  <br>
+                  <span><s>157,000원</s></span><b> 89,000원</b>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="new-item">
+            <a href="#none">
+              <img src="images/new-04-min.jpg" alt="#none">
+              <div>
+                <p>
+                  [Marina de Bourbon] Marina de Bourbon Crystal Royal Rose EDP 30ml
+                  <br>
+                  <span><s>59,000원</s></span><b> 47,000원</b>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="new-item">
+            <a href="#none">
+              <img src="images/new-05-min.jpg" alt="#none">
+              <div>
+                <p>
+                  [Bulgari] Bulgari Man Wood Neroli EDP 60ml
+                  <br>
+                  <span><s>117,000원</s></span><b> 61,000원</b>
+                </p>
+              </div>
+            </a>
+          </div>
+          <div class="new-item">
+            <a href="#none">
+              <img src="images/new-06-min.jpg" alt="#none">
+              <div>
+                <p>
+                  [Goutal Paris] Goutal Paris Theigne de Sware EDP 100ml
+                  <br>
+                  <span><s>255,000원</s></span><b> 132,000원</b>
+                </p>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best -->
+    <section class="best" id="best">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="content-heading">
+            <b>Best</b>
+            PRODUCTS
+          </h2>
+        </div>
+        <div class="best-tab-inner">
+          <div class="btn-tab">
+            <a href="#none" class="active">UNISEX BEST</a>
+            <a href="#none">MAN BEST</a>
+            <a href="#none">WOMAN BEST</a>
+            <a href="#none">OTHER BEST</a>
+          </div>
+          <div class="tabs">
+            <div class="tab1">
+              <div class="tab-left-item">
+                <a href="#none">
+                  <img src="images/best-uni-01-min.jpg" alt="#none">
+                  <p>
+                    [Clean] Clean Fresh Linen EDP 60ml Clean 10ml empty bottle
+                  </p>
+                  <div class="price">
+                    <span><s>89,000원</s></span><b> 49,500원</b>
+                  </div>
+                </a>
+              </div>
+              <div class="tab-right-items">
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-uni-02-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Memo] Memo Kedu EDP 75ml
+                        <br>
+                        <span><s>310,000원</s></span><b> 220,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-uni-03-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Monotem] Monotem Agrumi di Sicily EDT 100ml
+                        <br>
+                        <span><s>48,000원</s></span><b> 24,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-uni-04-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Calvin Klein] Calvin Klein CK ONE EDT 200ml
+                        <br>
+                        <span><s>99,000원</s></span><b> 48,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-uni-05-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Premier Note] Premier Note Orange Calabria EDP 100ml
+                        <br>
+                        <span><s>150,000원</s></span><b> 62,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-uni-06-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Goutalfari] Goutalfari Susuwa Ujame EDP 100ml
+                        <br>
+                        <span><s>255,000원</s></span><b> 118,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-uni-07-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Ralph Lauren] Ralph Lauren Ralph Woman EDT 30ml
+                        <br>
+                        <span><s>59,000원</s></span><b> 39,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab2">
+              <div class="tab-left-item">
+                <a href="#none">
+                  <img src="images/best-man-01-min.jpg" alt="#none">
+                  <p>
+                    [Carvin] Carvin Pour Homme EDT 50ml
+                  </p>
+                  <div class="price">
+                    <span><s>79,000원</s></span><b> 39,500원</b>
+                  </div>
+                </a>
+              </div>
+              <div class="tab-right-items">
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-man-02-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Versace] Versace Blue Jeans EDT 75ml
+                        <br>
+                        <span><s>60,000원</s></span><b> 26,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-man-03-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Montblanc] Montblanc Legend EDT 100ml
+                        <br>
+                        <span><s>117,000원</s></span><b> 55,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-man-04-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Dolce & Gabbana] Dolce & Gabbana K for Men EDT 50ml
+                        <br>
+                        <span><s>93,000원</s></span><b> 52,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-man-05-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Replay] Replay Signature Reverse For Men EDT 30ml
+                        <br>
+                        <span><s>46,000원</s></span><b> 17,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-man-06-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Burberry] Burberry Touch for Men EDT 50ml
+                        <br>
+                        <span><s>75,000원</s></span><b> 32,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-man-07-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [John Barbatos] John Barbatos Artisan EDT 75ml
+                        <br>
+                        <span><s>87,000원</s></span><b> 35,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab3">
+              <div class="tab-left-item">
+                <a href="#none">
+                  <img src="images/best-woman-01-min.jpg" alt="#none">
+                  <p>
+                    [Carvin] Carvin Eau de Toilette EDT 50ml
+                  </p>
+                  <div class="price">
+                    <span><s>79,000원</s></span><b> 64,000원</b>
+                  </div>
+                </a>
+              </div>
+              <div class="tab-right-items">
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-woman-02-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Narciso Rodriguez] Narciso Rodriguez For Her EDT 50ml
+                        <br>
+                        <span><s>115,000원</s></span><b> 59,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-woman-03-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Vince Camuto] Vince Camuto Fiori EDP 50ml
+                        <br>
+                        <span><s>50,000원</s></span><b> 39,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-woman-04-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Versace] Versace Purfemme Dylan Blue EDP 50ml
+                        <br>
+                        <span><s>120,000원</s></span><b> 55,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-woman-05-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Salvador Dali] Salvador Dali La Belle Othello EDT 50ml
+                        <br>
+                        <span><s>75,000원</s></span><b> 37,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-woman-06-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Chloé] Chloé Eau de Parfum EDP 50ml
+                        <br>
+                        <span><s>129,000원</s></span><b> 81,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-woman-07-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Monotem] Monotem Bloom EDT 100ml
+                        <br>
+                        <span><s>48,000원</s></span><b> 24,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="tab4">
+              <div class="tab-left-item">
+                <a href="#none">
+                  <img src="images/best-other-01-min.jpg" alt="#none">
+                  <p>
+                    [Marina de Bourbon] Marina de Bourbon Crystal Royal Rose Body Lotion 150ml
+                  </p>
+                  <div class="price">
+                    <span><s>12,000원</s></span><b> 8,000원</b>
+                  </div>
+                </a>
+              </div>
+              <div class="tab-right-items">
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-other-02-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Calvin Klein] Calvin Klein CK ONE Skin Moisturizer 250ml
+                        <br>
+                        <span><s>45,000원</s></span><b> 32,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-other-03-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Offresh] Offresh Pure Natural Soap Eoseongcho 100g
+                        <br>
+                        <span><s>18,000원</s></span><b> 4,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-other-04-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Sweet Dawn] Sweet Dawn Diffuser 200ml
+                        <br>
+                        <span><s>36,000원</s></span><b> 18,900원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+                <div class="tab-right-item">
+                  <a href="#none">
+                    <img src="images/best-other-05-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Aramis] Aramis Aftershave (Skin) 200ml
+                        <br>
+                        <span><s>50,000원</s></span><b> 34,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-other-06-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Sweet Dawn] Sweet Dawn Easy Refill Perfume Bottle
+                        <br>
+                        <span><s>18,000원</s></span><b> 7,500원</b>
+                      </p>
+                    </div>
+                  </a>
+                  <a href="#none">
+                    <img src="images/best-other-07-min.jpg" alt="#none">
+                    <div>
+                      <p>
+                        [Lolita Lempica] Lolita Lempica EDP Body Lotion 200ml
+                        <br>
+                        <span><s>49,000원</s></span><b> 29,000원</b>
+                      </p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Review -->
+    <section class="review" id="review">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="content-heading">
+            <b>CUSTOMER</b>
+            REVIEWS
+          </h2>
+          <a href="#none">ABOUT <i class="xi-plus-min"></i></a>
+        </div>
+        <div class="review-slider">
+          <div class="review-item">
+            <a href="#none">
+              <div class="review-image">
+                <img src="images/review-01-min.jpeg" alt="#none">
+              </div>
+              <div class="review-text">
+                <p>Yeastwa de Parfum This Is Not A Blue...</p>
+                <b>Yeah****</b>
+                <em>2022-05-26</em>
+                <span>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="review-item">
+            <a href="#none">
+              <div class="review-image">
+                <img src="images/review-02-min.jpeg" alt="#none">
+              </div>
+              <div class="review-text">
+                <p>Eastwa de Parfum Discovery Set Best...</p>
+                <b>Yeah****</b>
+                <em>2022-05-23</em>
+                <span>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="review-item">
+            <a href="#none">
+              <div class="review-image">
+                <img src="images/review-03-min.jpeg" alt="#none">
+              </div>
+              <div class="review-text">
+                <p>Istois de Parfum Discovery Set Best...</p>
+                <b>Yeah****</b>
+                <em>2022-05-22</em>
+                <span>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="review-item">
+            <a href="#none">
+              <div class="review-image">
+                <img src="images/review-04-min.jpg" alt="#none">
+              </div>
+              <div class="review-text">
+                <p>4160 Tuesday's Days Ealing Green...</p>
+                <b>s****</b>
+                <em>2022-05-21</em>
+                <span>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="review-item">
+            <a href="#none">
+              <div class="review-image">
+                <img src="images/review-05-min.jpeg" alt="#none">
+              </div>
+              <div class="review-text">
+                <p>4160 Tuesday's Days New York Green...</p>
+                <b>Yeah****</b>
+                <em>2022-05-13</em>
+                <span>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+          <div class="review-item">
+            <a href="#none">
+              <div class="review-image">
+                <img src="images/review-06-min.jpeg" alt="#none">
+              </div>
+              <div class="review-text">
+                <p>Mirko Buffini Rashido Know Coron...</p>
+                <b>Yeah****</b>
+                <em>2022-05-11</em>
+                <span>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                  <i class="xi-star"></i>
+                </span>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Delivery -->
+    <section class="accordion" id="accordion">
+      <div class="section-inner">
+        <div class="section-header">
+          <h2 class="content-heading">
+            <b>OVERSEAS SHIPPING</b>
+            FAQ
+          </h2>
+        </div>
+        <div class="accordion-items">
+          <div class="accordion-left-item">
+            <img src="images/accordion-min.png" alt="#none">
+          </div>
+          <div class="accordion-right-item">
+            <h3>FAQ</h3>
+            <div class="accordion">
+              <div class="accordion-title">
+                Is it possible to work overseas?
+              </div>
+              <div class="accordion-content">
+                Our SENSE PERFUME can be purchased directly from overseas in almost all regions. You must leave an accurate contact number/email address.
+              </div>
+              <div class="accordion-title">
+                What is the delivery period?
+              </div>
+              <div class="accordion-content">
+                Delivery is completed within 3 days on average in major cities around the world through SENSE PERFUME's systematic distribution network.
+              </div>
+              <div class="accordion-title">
+                Is there an additional fee for overseas direct purchase?
+              </div>
+              <div class="accordion-content">
+                All agency services such as purchasing agency, payment agency, shipping agency, etc. are free!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="footer-inner">
+        <div class="footer-logo">
+          <img src="images/logo-min.png" alt="#none">
+        </div>
+        <div class="copyright">
+          <div class="service">
+            <p>
+              Service center : 111 - 1111
+              <span>
+                Weekdays: 09:00 am to 6:00 pm<br>
+                Lunch time: 12:00 am to 1:00 pm Closed<br>
+                on Sat/Sun/Holidays
+              </span>
+            </p>
+          </div>
+          <div class="service-text">
+            <div>
+              <span>About Us</span>
+              <span>Terms of service</span>
+              <span>Privacy Statement</span>
+              <span>Information Use</span>
+            </div>
+            <div class="sns">
+              <a href="#none"><i class="xi-facebook"></i></a>
+              <a href="#none"><i class="xi-instagram"></i></a>
+              <a href="#none"><i class="xi-twitter"></i></a>
+              <a href="#none"><i class="xi-youtube-play"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="sub-text">
+          <p>
+            Copyright © SENSE PERFUME . All rights reserved.<br>
+            We provide services by subscribing to payment purchase safety (escrow) for safe transactions.
+          </p>
+        </div>
+      </div>
+    </footer>
+  </div>
+
+</body>
+</html>
